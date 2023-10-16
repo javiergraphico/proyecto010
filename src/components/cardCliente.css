@@ -1,0 +1,58 @@
+.card_cliente{
+  background-color: #001d3d;
+  width: 90%;
+  margin: auto;
+  border-radius: 15px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card_cliente_img{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 10px solid rgba(98, 150, 255, 0.5);
+
+}
+.card_cliente_p{
+  width: 80%;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #9e9e9e;
+  padding: 2.5rem 0;
+}
+.card_cliente_Name{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  padding-bottom: .5rem;
+  color: white;
+}
+.card_cliente_pro{
+  text-align: center;
+  font-size: 1.3rem;
+  color: #9e9e9e;
+  padding-bottom: 2rem;
+}
+.swiper {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px){
+  .card_cliente{
+    width: 60%;
+  }
+}
