@@ -17,12 +17,10 @@
   font-weight: 400;
 }
 .experiencia_parafo{
-  width: 80%;
-  margin: 0 auto;
+  padding-top: 1rem;
+  width: 95%;
   text-align: center;
   color: white;
-  font-size: 1.4rem;
-  line-height: 38px;
 }
 .contenedor_experiencia{
   display: grid;
@@ -54,6 +52,11 @@
 @media (min-width: 668px){
   .contenedor_experiencia{
     grid-template-columns: repeat(2, 1fr);
+  }
+  .experiencia_parafo{
+    width: 80%;
+    text-align: center;
+    color: white;
   }
 }
 @media (min-width: 968px){
