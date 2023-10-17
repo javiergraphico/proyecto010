@@ -1,5 +1,4 @@
-import React from 'react'
-import { BsUmbrella } from 'react-icons/Bs';
+import { RiUmbrellaLine } from 'react-icons/Ri';
 import { CiUser } from 'react-icons/Ci';
 import { PiBagSimple } from 'react-icons/Pi';
 import { PiBookOpenLight } from 'react-icons/Pi';
@@ -39,7 +38,7 @@ const Practica = () => {
 
           <div className='practica_card'>
               <div className='practica_content_icons'>
-                <BsUmbrella className='practica_item_icon' />
+                <RiUmbrellaLine className='practica_item_icon' />
               </div>
               <h3 className='practica_h3'>Insurance Defence</h3>
               <p className='practica_p'>We aim to support families in resolving their own disputes. We ensure professional consultancy and result.</p>
