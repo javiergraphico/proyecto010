@@ -1,4 +1,4 @@
-import './Practica.css'
+import './practica.css'
 
 const Practica = () => {
   return (

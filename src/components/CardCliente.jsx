@@ -6,7 +6,7 @@ import { Pagination } from 'swiper/modules';
 import 'swiper/css/pagination';
 import "swiper/css";
 import "swiper/css/navigation";
-import "./CardCliente.css";
+import "./cardCliente.css";
 
 const CardCliente = () => {
   return (
