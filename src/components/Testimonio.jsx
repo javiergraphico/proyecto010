@@ -1,7 +1,5 @@
-import React from "react";
 import CardCliente from "./CardCliente";
-
-import "./Testimonio.css";
+import "./testimonio.css";
 
 
 const Testimonio = () => {
