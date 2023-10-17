@@ -1,5 +1,3 @@
-import React from 'react'
-import { BiPlusCircle } from 'react-icons/Bi';
 import './noticias.css'
 
 const Noticias = () => {
