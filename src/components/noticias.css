@@ -62,8 +62,9 @@
   margin: 0 1rem;
 }
 .noticias_icon_plus{
-  font-size: 2rem;
-  color: white;
+  width: 25px;
+  height: 25px;
+  fill: #ffffff;
 }
 @media (min-width: 1168px){
   .noticias_contenedor{
