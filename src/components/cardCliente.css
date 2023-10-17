@@ -10,29 +10,25 @@
 }
 .card_cliente_img{
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 75px;
+  height: 75px;
   object-fit: cover;
   border: 10px solid rgba(98, 150, 255, 0.5);
-
 }
 .card_cliente_p{
-  width: 80%;
+  width: 95%;
   text-align: center;
-  font-size: 1.3rem;
   color: #9e9e9e;
   padding: 2.5rem 0;
 }
 .card_cliente_Name{
   text-align: center;
-  font-size: 2.5rem;
   font-weight: 400;
   padding-bottom: .5rem;
   color: white;
 }
 .card_cliente_pro{
   text-align: center;
-  font-size: 1.3rem;
   color: #9e9e9e;
   padding-bottom: 2rem;
 }
@@ -54,5 +50,12 @@
 @media (min-width: 768px){
   .card_cliente{
     width: 60%;
+  }
+  .card_cliente_img{
+    width: 150px;
+    height: 150px;
+  }
+  .card_cliente_p{
+    width: 80%;
   }
 }
