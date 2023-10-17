@@ -1,7 +1,7 @@
 .card_cliente{
   background-color: #001d3d;
   width: 90%;
-  margin: auto;
+  margin: 2rem;
   border-radius: 15px;
   padding: 0.5rem;
   display: flex;
@@ -13,7 +13,7 @@
   width: 75px;
   height: 75px;
   object-fit: cover;
-  border: 10px solid rgba(98, 150, 255, 0.5);
+  border: 5px solid rgba(98, 150, 255, 0.5);
 }
 .card_cliente_p{
   width: 95%;
@@ -54,6 +54,7 @@
   .card_cliente_img{
     width: 150px;
     height: 150px;
+    border: 10px solid rgba(98, 150, 255, 0.5);
   }
   .card_cliente_p{
     width: 80%;
