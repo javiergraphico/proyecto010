@@ -1,5 +1,5 @@
 import React from 'react'
-import ImagHero from '../assets/yogendra-singh-HrpYHchKb5Y-unsplash.webp'
+
 import ImagHeroMedia from '../assets/yoge_movil_1_unsplash.webp'
 import './hero.css'
 
