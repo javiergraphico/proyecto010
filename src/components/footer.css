@@ -118,6 +118,9 @@ hr{
   width: 20px;
   height: 20px;
 }
+.scrollToTop{
+  background-color: #00296b;
+}
 @media (min-width: 568px){
   .footer_copyright_p{
     text-align: center;
