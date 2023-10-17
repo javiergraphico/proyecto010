@@ -5,7 +5,7 @@ import './footer.css'
 const Footer = () => {
   return (
     <footer className='footer'>
-      <ScrollToTop smooth top="4000" width="20" height="20" style={{ marginLeft: "10px" }} />
+      <ScrollToTop smooth top="4000" width="20" height="20" style={{ position: 'absolute', right: '20px', bottom: '20px'}} />
       <div className='contenedor'>
         <div className='footer_contenedor'>
           <div className='footer_conten_logo'>
