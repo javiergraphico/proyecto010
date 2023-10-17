@@ -26,8 +26,7 @@ const CardCliente = () => {
           <p className="card_cliente_p">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
             quidem, nobis repellendus magnam odio id iure unde voluptatem
-            tempore maxime similique facere eos. Libero ut recusandae voluptates
-            veniam quod mollitia.
+            tempore maxime similique facere eos.
           </p>
           <h3 className="card_cliente_Name">John Doe</h3>
           <p className="card_cliente_pro">School Teacher</p>
@@ -40,8 +39,7 @@ const CardCliente = () => {
           <p className="card_cliente_p">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
             quidem, nobis repellendus magnam odio id iure unde voluptatem
-            tempore maxime similique facere eos. Libero ut recusandae voluptates
-            veniam quod mollitia.
+            tempore maxime similique facere eos.
           </p>
           <h3 className="card_cliente_Name">John Doe</h3>
           <p className="card_cliente_pro">School Teacher</p>
@@ -54,8 +52,7 @@ const CardCliente = () => {
           <p className="card_cliente_p">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
             quidem, nobis repellendus magnam odio id iure unde voluptatem
-            tempore maxime similique facere eos. Libero ut recusandae voluptates
-            veniam quod mollitia.
+            tempore maxime similique facere eos.
           </p>
           <h3 className="card_cliente_Name">John Doe</h3>
           <p className="card_cliente_pro">School Teacher</p>
