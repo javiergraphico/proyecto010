@@ -27,9 +27,9 @@
   justify-content: center;
 }
 .servicios_item_icon{
-  font-size: 2rem;
+  width: 2.5rem;
   color: rgb(0, 41, 107);
-  font-weight: 400;
+  font-weight: bold;
 }
 .servicios_h3{
   color: white;
