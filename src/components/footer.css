@@ -8,7 +8,7 @@
   
 }
 .footer_conten_logo{
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 .footer_logo{
   color: #ffffff;
@@ -22,7 +22,7 @@
   line-height: 36px;
 }
 .footer_conten_info{
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 .footer_h3{
   color: #ffffff;
@@ -36,7 +36,7 @@
   line-height: 36px;
 }
 .footer_conten_links{
-  padding-top: 2rem;
+  padding-top: 1rem;
   
 }
 .footer_ul{
@@ -55,7 +55,8 @@
   color: #9e9e9e;
 }
 .footer_conten_news{
-  padding-top: 2rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
 }
 form{
   display: flex;
@@ -78,17 +79,7 @@ form{
   resize: none;
   border-bottom: 3px solid white
 }
-.footer_button{
-  font-family:'DM Serif Display', serif; 
-  width: 260px;
-  display: inline-block;
-  font-size: 1.5rem;
-  border: 2px solid white;
-  background-color: transparent;
-  color: white;
-  padding: 13px 32px 15px 32px;
-  margin-bottom: 1rem;
-}
+
 .footer_news_p{
   color: #9e9e9e;
   font-size: 1.2rem;
@@ -133,6 +124,7 @@ hr{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 2rem 0;
+    gap: 1rem;
   }
 }
 @media (min-width: 968px){
@@ -145,8 +137,9 @@ hr{
 @media (min-width: 1368px){
   .footer_contenedor{
     display: grid;
-    grid-template-columns: 35% 15% 20% 30%;
+    grid-template-columns: 30% 15% 25% 25%;
     padding: 2rem 0;
     
   }
+  
 }

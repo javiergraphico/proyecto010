@@ -4,9 +4,9 @@ import "./testimonio.css";
 
 const Testimonio = () => {
   return (
-    <div className="testimonio">
+    <section className="testimonio">
       <CardCliente />
-    </div>
+    </section>
   );
 };
 

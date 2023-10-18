@@ -2,10 +2,10 @@ import './noticias.css'
 
 const Noticias = () => {
   return (
-    <div className='noticias'>
+    <section className='noticias'>
       <h2 className='noticia_h2'>Recent News</h2>
       <div className='contenedor'>
-        <div className='noticias_contenedor'>
+        <article className='noticias_contenedor'>
           <div className='noticias_card'>
             <div className='noticias_content_legal'>
               <p className='noticias_p_legal'>Legal</p>
@@ -56,10 +56,10 @@ const Noticias = () => {
               <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
             </svg>
           </div>
-        </div>
+        </article>
       </div>
 
-    </div>
+    </section>
   )
 }
 

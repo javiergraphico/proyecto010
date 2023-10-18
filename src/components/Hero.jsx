@@ -1,6 +1,5 @@
-import React from 'react'
-
 import ImagHeroMedia from '../assets/yoge_movil_1_unsplash.webp'
+import BtnButtons from './button/BtnButtons'
 import './hero.css'
 
 const Hero = () => {
@@ -14,7 +13,7 @@ const Hero = () => {
           <div className='header_content'>
             <h1 className='header_h1'>Reputation. <br /> Respect. Result .</h1>
             <p className='header_p'>We know what is to defend rights. We work with people, for people and with the full respect to the law. Contact for more details!</p>
-            <button className='header_btn'>Free Consultation</button>
+            <BtnButtons text='Free Consultation' />
           </div>
           
 

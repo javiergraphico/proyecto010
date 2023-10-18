@@ -1,6 +1,7 @@
-import React from 'react'
-import ScrollToTop from "react-scroll-to-top";
+import BtbSegundo from './button/BtbSegundo';
 import './footer.css'
+import ScrollToTop from "react-scroll-to-top";
+
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
             <p className='footer_p_logo'>Your reliable protection in jurisprudence. Our qualification provides the opportunity solve the problems of any complexity.</p>
           </div>
 
-          <div className='footer_conten_links'>
+          <aside className='footer_conten_links'>
             <h3 className='footer_h3'>Quick Links</h3>
             <ul className='footer_ul'>
               <a className='footer_link' href="#">Home</a>
@@ -22,7 +23,7 @@ const Footer = () => {
               <a className='footer_link' href="#">News</a>
               <a className='footer_link' href="#">Contacts</a>
             </ul>
-          </div>
+          </aside>
 
           <div className='footer_conten_info'>
             <h3 className='footer_h3'>Contact Info</h3>
@@ -39,7 +40,8 @@ const Footer = () => {
             <h3 className='footer_h3'>Newsletter</h3>
             <form>
               <input className='footer_input' type="text" placeholder='Your Email Address'/>
-              <button className='footer_button'>Sign Up</button>
+              {/* <button className='footer_button'>Sign Up</button> */}
+              <BtbSegundo text='Subscribe' />
             </form>
             <p className='footer_news_p'>Be the first to find out about exclusive deals, the latest Lookbooks, and top trends.</p>
           </div>
