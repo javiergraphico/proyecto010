@@ -17,11 +17,21 @@ const Footer = () => {
           <aside className='footer_conten_links'>
             <h3 className='footer_h3'>Quick Links</h3>
             <ul className='footer_ul'>
-              <a className='footer_link' href="#">Home</a>
-              <a className='footer_link' href="#">About</a>
-              <a className='footer_link' href="#">Services</a>
-              <a className='footer_link' href="#">News</a>
-              <a className='footer_link' href="#">Contacts</a>
+              <li>
+                <a className='footer_link' href="#">Home</a>
+              </li>
+              <li>
+                <a className='footer_link' href="#">About</a>
+              </li>
+              <li>
+                <a className='footer_link' href="#">Services</a>
+              </li>
+              <li>
+                <a className='footer_link' href="#">News</a>
+              </li>
+              <li>
+                <a className='footer_link' href="#">Contacts</a>
+              </li>
             </ul>
           </aside>
 
