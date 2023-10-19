@@ -55,7 +55,9 @@ const Hero = () => {
     <header className='header'>
         <div className='header_grid contenedor'>
           <picture className='header_conten_img'>
-            <img src={ImageMobil} className='header_img' alt='hero' loading='lazy' sizes="(max-width: 320px) 280px, (max-width: 480px) 440px, 800px" />
+            <source srcSet={ImageMobil} type="image/webp" media="(min-width: 320px) and (orientation: portrait)" />
+            <source srcSet={ImageMobil} type="image/webp" media="(min-width: 480px) and (orientation: portrait)" />
+            <img src={ImageMobil} className='header_img' alt='hero' width="200" height="200"  loading='lazy' sizes="(max-width: 320px) 280px, (max-width: 480px) 440px, 800px" />
           </picture>
           
           <div className='header_content'>
