@@ -40,6 +40,10 @@
   color: white;
   line-height: 36px;
   padding: 1.5rem 0;
+  transition: all 0.3s ease-out;
+}
+.noticias_h3:hover{
+  color: #d5f9ff;
 }
 .noticias_p{
   color: #9e9e9e;
@@ -64,7 +68,15 @@
   width: 25px;
   height: 25px;
   fill: #ffffff;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
 }
+.noticias_icon_plus:hover{
+  fill: #d5f9ff;
+  transform: scale(1.2);
+  margin-left: 5px;
+}
+
 @media (min-width: 1168px){
   .noticias_contenedor{
     grid-template-columns: repeat(3, 1fr);

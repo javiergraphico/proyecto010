@@ -25,6 +25,11 @@
   border-radius: 15px ;
   padding: 1.5rem;
 }
+.practica_card:hover{
+  background-color: #d5f9ff;
+  box-shadow: -5px 5px 5px -3px rgba(0,0,0,0.2);
+  transition: all 0.3s ease-out;
+}
 .practica_content_icons{
   width: 60px;
   height: 60px;
@@ -45,9 +50,15 @@
   padding-bottom: 1.5rem;
   font-weight: 400;
 }
+.practica_card:hover > .practica_h3{
+  color: rgb(0, 41, 107);
+}
 .practica_p{
   color: #9e9e9e;
   font-size: 1.3rem;
+}
+.practica_card:hover > .practica_p{
+  color: rgb(0, 41, 107);
 }
 @media (min-width: 968px){
   .practica_contenedor{

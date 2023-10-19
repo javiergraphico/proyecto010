@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import BtnTercero from './button/BtnTercero'
 import './servicios.css'
 
 const Servicios = () => {
@@ -57,7 +58,7 @@ const Servicios = () => {
             <br />
             <p>Our company was established in 2004. We started as a small legal consultancy. We have proved our competence and had many satisfied clients. We expanded our activity and started providing many other juridical services to meet wider clients needs.</p>
             <br />
-            <button className='servicios_btn'>Read More</button>
+            <BtnTercero text='Read More' />
           </div>
         </article>
 
