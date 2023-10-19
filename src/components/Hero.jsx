@@ -57,7 +57,7 @@ const Hero = () => {
           <picture className='header_conten_img'>
             <img src={ImageMobil} className='header_img' alt='hero' sizes="(max-width: 320px) 280px,
             (max-width: 480px) 440px,
-            600px" />
+            600px" width="550" height="550" loading='lazy' />
           </picture>
           
           <div className='header_content'>
