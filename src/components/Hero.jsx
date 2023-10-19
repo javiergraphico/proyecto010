@@ -55,9 +55,7 @@ const Hero = () => {
     <header className='header'>
         <div className='header_grid contenedor'>
           <picture className='header_conten_img'>
-            <img src={ImageMobil} className='header_img' alt='hero' sizes="(max-width: 320px) 280px,
-            (max-width: 480px) 440px,
-            600px" width="550" height="550" loading='lazy' />
+            <img src={ImageMobil} className='header_img' alt='hero' loading='lazy' sizes="(max-width: 320px) 280px, (max-width: 480px) 440px, 800px" />
           </picture>
           
           <div className='header_content'>
