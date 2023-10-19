@@ -19,8 +19,8 @@
   justify-content: center;
 }
 .header_img{
+  border-radius: 15px;
   width: 100%;
-  z-index: 2;
 }
 .header_content{
   display: flex;
@@ -38,51 +38,13 @@
   font-size: 1.3rem;
   padding-bottom: 1.5rem;
 }
-.header_cuadrado{
-  position: absolute;
-  top: 60px;
-  right: 80px;
-  width: 60px;
-  height: 60px;
-  background: linear-gradient(45deg, #003f88 0%, #b9dcff 80%);
-  z-index: 1;
-  border-radius: 10px;
-  rotate: 25deg;
-}
-.header_circulo{
-  position: absolute;
-  top: 200px;
-  left: 270px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  background: linear-gradient(180deg, #00296b 0%, #b9dcff 100%);
-  z-index: 1;
-}
-.header_triangulo{
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  rotate: 45deg;
-  top: 100px;
-  left: 50px;
-  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-  background: linear-gradient(180deg, #003f88 0%, #b9dcff 100%);
-  z-index: 1;
-}
-.header_circulo_2{
-  position: absolute;
-  top: 250px;
-  left: 70px;
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  background: linear-gradient(80deg, #003f88 0%, #b9dcff 100%);
-  z-index: 1;
-}
-@media (min-width: 968px){
+@media (min-width: 868px){
   .header{
     height: 100vh;
+    background-image: url('../assets/bg_portada_abogado.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
   .header_grid{
     flex-direction: row-reverse;
@@ -90,7 +52,7 @@
     justify-content: space-between;
   }
   .header_img{
-    width: 90%;
+    display: none;
   }
   .header_content{
     display: flex;
@@ -99,6 +61,7 @@
 } 
 @media (min-width: 1068px){
   .header_conten_img{
+
     width: 100%;
     padding-top: 4rem;
     display: flex;
@@ -106,45 +69,39 @@
     justify-content: center;
   }
   .header_img{
-    width: 70%;
+    position: absolute;
+    width: 50%;
+    top: 0;
+    right: 0;
+    z-index: 2;
     
   }
   .header_cuadrado{
     position: absolute;
-    top: 260px;
-    right: 280px;
-    width: 100px;
-    height: 100px;
+    top: 500px;
+    right: 800px;
+    width: 60px;
+    height: 60px;
     background: linear-gradient(45deg, #003f88 0%, #b9dcff 80%);
     z-index: 1;
     border-radius: 10px;
     rotate: 25deg;
   }
-  .header_circulo{
-    position: absolute;
-    top: 450px;
-    left: 400px;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background: linear-gradient(180deg, #00296b 0%, #b9dcff 100%);
-    z-index: 1;
-  }
   .header_triangulo{
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     rotate: 45deg;
-    top: 100px;
-    left: 700px;
+    top: 150px;
+    left: 1200px;
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     background: linear-gradient(180deg, #003f88 0%, #b9dcff 100%);
     z-index: 1;
   }
   .header_circulo_2{
     position: absolute;
-    top: 350px;
-    left: 650px;
+    top: 450px;
+    left: 1150px;
     width: 50px;
     height: 50px;
     border-radius: 50%;

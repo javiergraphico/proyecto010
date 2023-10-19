@@ -1,14 +1,64 @@
-import ImagHeroMedia from '../assets/yoge_movil_1_unsplash.webp'
+
+import ImageMobil from '../assets/mobil_portada.webp'
 import BtnButtons from './button/BtnButtons'
+import { motion } from "framer-motion"
 import './hero.css'
+
+const AnimateCiculo = {
+  initial: {
+    y: 100,
+    opacity: 0,
+  },
+  animate: {
+    y: -0,
+    opacity: 1,
+    transition: {
+      duration: 2,
+      straggerChildren: 0.1,
+    },
+  },
+  scrollButton: {
+    opacity: 0,
+    x: -200,
+    transition: {
+      duration: 8,
+      repeat: Infinity,
+    }
+  }
+}
+
+const AnimateCuadrado = {
+  initial: {
+    x: 20,
+    opacity: 0,
+  },
+  animate: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 3,
+      straggerChildren: 0.2,
+    },
+  },
+  scrollButton: {
+    opacity: 0,
+    x: 20,
+    transition: {
+      duration: 8,
+      repeat: Infinity,
+    }
+  }
+}
 
 const Hero = () => {
   return (
     <header className='header'>
         <div className='header_grid contenedor'>
-          <div className='header_conten_img'>
-            <img src={ImagHeroMedia} className='header_img' alt='hero' />
-          </div>
+          <picture className='header_conten_img'>
+            <img src={ImageMobil} className='header_img' alt='hero' sizes="(max-width: 320px) 280px,
+            (max-width: 480px) 440px,
+            600px" />
+          </picture>
           
           <div className='header_content'>
             <h1 className='header_h1'>Reputation. <br /> Respect. Result .</h1>
@@ -18,10 +68,9 @@ const Hero = () => {
           
 
         </div>
-        <div className='header_triangulo'></div>
-        <div className='header_cuadrado'></div>
-        {/* <div className='header_circulo'></div> */}
-        <div className='header_circulo_2'></div>
+        <motion.div variants={AnimateCiculo} animate="scrollButton" className='header_triangulo'></motion.div>
+        <motion.div className='header_cuadrado' variants={AnimateCuadrado} animate="scrollButton"></motion.div>
+        <motion.div variants={AnimateCuadrado} className='header_circulo_2' animate="scrollButton"></motion.div>
       
     </header>
   )
