@@ -1,10 +1,17 @@
+import { motion } from "framer-motion"
 import './servicios.css'
 
 const Servicios = () => {
   return (
     <section className='servicios'>
       <div className='contenedor'>
-        <article className='servicios_content'>
+        <motion.article 
+          className='servicios_content'
+          initial={{opacity: 0.7, scale: 0.9}}
+          transition={{duration: 1, ease: "easeInOut"}}
+          whileInView={{opacity: 1, scale: 1}}
+          drag 
+          >
             <div className='servicios_card'>
               <div className='servicios_content_icons'>
                 {/* icon bag */}
@@ -38,7 +45,7 @@ const Servicios = () => {
               <h3 className='servicios_h3'>Insurance Defence</h3>
               <p className='servicios_p'>Business requires strong legislative background to operate well.</p>
             </div>
-        </article>
+        </motion.article>
         <article className='servicios_content_text'>
           <div className='servicios_content_title'>
             <h2 className='servicios_h2'>Why You Can Trust Legalor, <span style={{color: 'rgb(0, 41, 107)'}}>Our Values</span></h2>

@@ -54,13 +54,15 @@ const Hero = () => {
   return (
     <header className='header'>
         <div className='header_grid contenedor'>
-          <picture className='header_conten_img'>
+          <picture 
+            className='header_conten_img' >
             <source srcSet={ImageMobil} type="image/webp" media="(min-width: 320px) and (orientation: portrait)" />
             <source srcSet={ImageMobil} type="image/webp" media="(min-width: 480px) and (orientation: portrait)" />
             <img src={ImageMobil} className='header_img' alt='hero' width="200" height="200"  loading='lazy' sizes="(max-width: 320px) 280px, (max-width: 480px) 440px, 800px" />
           </picture>
           
-          <div className='header_content'>
+          <div 
+            className='header_content'>
             <h1 className='header_h1'>Reputation. <br /> Respect. Result .</h1>
             <p className='header_p'>We know what is to defend rights. We work with people, for people and with the full respect to the law. Contact for more details!</p>
             <BtnButtons text='Free Consultation' />

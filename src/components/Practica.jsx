@@ -1,11 +1,20 @@
+import { motion } from "framer-motion"
 import './practica.css'
+
+
 
 const Practica = () => {
   return (
     <section className='practica'>
       <div className='contenedor'>
         <h2 className='practica_h2'>Our Legal Practice Areas</h2>
-        <article className='practica_contenedor'>
+        <motion.article 
+          className='practica_contenedor'
+          initial={{opacity: 0.7, scale: 0.9}}
+          transition={{duration: 1, ease: "easeInOut"}}
+          whileInView={{opacity: 1, scale: 1}}
+          drag        
+        >
           <div className='practica_card'>
               <div className='practica_content_icons'>
                 {/* user icon */}
@@ -77,7 +86,7 @@ const Practica = () => {
               <h3 className='practica_h3'>Finance Law</h3>
               <p className='practica_p'>We aim to support families in resolving their own disputes. We ensure professional consultancy and result.</p>
           </div>
-        </article>
+        </motion.article>
       </div>
     </section>
   )
