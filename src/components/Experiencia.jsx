@@ -12,36 +12,36 @@ const Experiencia = () => {
             <h3 className='experiencia_h3'>
               1998
             </h3>
-            <h5 className='experiencia_p'>
+            <p className='experiencia_p'>
               COMPANY <br /> ESTABLISHED
-            </h5>
+            </p>
           </div>
 
           <div className='experiencia_card'>
             <h3 className='experiencia_h3'>
               547
             </h3>
-            <h5 className='experiencia_p'>
+            <p className='experiencia_p'>
               CASES <br /> WON
-            </h5>
+            </p>
           </div>
 
           <div className='experiencia_card'>
             <h3 className='experiencia_h3'>
               45+
             </h3>
-            <h5 className='experiencia_p'>
+            <p className='experiencia_p'>
               BUSINESS <br /> PARTNERS
-            </h5>
+            </p>
           </div>
 
           <div className='experiencia_card'>
             <h3 className='experiencia_h3'>
               1500
             </h3>
-            <h5 className='experiencia_p'>
+            <p className='experiencia_p'>
               TRUSTING <br /> CLIENTS
-            </h5>
+            </p>
           </div>
         </div>
       </article>
