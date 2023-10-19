@@ -4,12 +4,21 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+    
     <link rel="preload" href="/assets/mobil_portada.webp" as="image" media="(max-width: 320px) and (orientation: portrait)">
     <link rel="preload" href="/assets/mobil_portada" as="image" media="(max-width: 480px) and (orientation: landscape)">
     <link rel="preload" href="/assets/mobil_portada.webp" as="image" media="(min-width: 481px)">
+
+    <script>
+      // Crear un elemento de enlace para cargar los estilos de Google Fonts de forma asincrónica
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = 'https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:wght@200;300;400&display=swap';
+      link.media = 'print'; // Utilizar media="print" para asegurar la carga asincrónica
+      document.head.appendChild(link);
+    </script>
+  
+      
 
     <title>Landing pages + React</title>
   </head>
