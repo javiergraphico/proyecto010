@@ -29,7 +29,6 @@ const Experiencia = () => {
           initial={{opacity: 0.7, scale: 0.9}}
           transition={{duration: 1, ease: "easeInOut"}}
           whileInView={{opacity: 1, scale: 1}}
-          drag 
           >
           <div className='experiencia_card'>
             <h3 className='experiencia_h3'>

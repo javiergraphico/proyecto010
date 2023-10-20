@@ -12,8 +12,7 @@ const Practica = () => {
           className='practica_contenedor'
           initial={{opacity: 0.7, scale: 0.9}}
           transition={{duration: 1, ease: "easeInOut"}}
-          whileInView={{opacity: 1, scale: 1}}
-          drag        
+          whileInView={{opacity: 1, scale: 1}}       
         >
           <div className='practica_card'>
               <div className='practica_content_icons'>
