@@ -1,7 +1,7 @@
 .testimonio{
   background-image: url('../assets/hunters-race-MYbhN8KaaEc-unsplash.webp');
   background-repeat: no-repeat;
-  background-color: rgb(0, 41, 107);
+  background-color: var(--primary-100);
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
